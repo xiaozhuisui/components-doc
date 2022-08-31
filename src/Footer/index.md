@@ -1,10 +1,10 @@
 ---
 nav:
-  title: Action
+  title: Fields
   path: /components
 ---
 
-## Footer
+## Footer1
 
 Demo:
 
@@ -12,10 +12,10 @@ Demo:
 import React from 'react';
 import { Foo } from 'dumi-doc';
 
-export default () => <Foo title="First Demo" />;
+export default () => <Foo title="First Demo 1" />;
 ```
 
-## Footer
+## Footer2
 
 Demo:
 
