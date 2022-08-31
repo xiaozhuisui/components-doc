@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-08-31 11:04:25
  * @LastEditors: 追随
- * @LastEditTime: 2022-08-31 11:49:34
+ * @LastEditTime: 2022-08-31 11:54:15
  */
 import { defineConfig } from 'dumi';
 
@@ -14,18 +14,5 @@ export default defineConfig({
   mode: 'site',
   base: '/xiaozhuisui',
   publicPath: '/xiaozhuisui/',
-  extraBabelPlugins: [
-    [
-      'import',
-      {
-        libraryName: 'lean',
-        camel2DashComponentName: false,
-        customStyleName: name => {
-          return `./style/index.less`; // 注意：这里 ./ 不可省略
-        },
-      },
-      'lean',
-    ],
-  ]
   // more config: https://d.umijs.org/config
 });
